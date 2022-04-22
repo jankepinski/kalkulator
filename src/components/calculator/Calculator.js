@@ -10,7 +10,7 @@ export function Calculator() {
 
   return (
     <div>
-      <p>Conflicting calculator label</p>
+      <p>Calculator</p>
       <p>{operationSelected ? secNum : firstNum}</p>
       <div>
         {new Array(10).fill(0).map((_, index) => (
